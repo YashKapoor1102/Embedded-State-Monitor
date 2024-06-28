@@ -17,7 +17,7 @@ https://drive.google.com/file/d/1LSEILRXVEywjj1cTgE-NbKXY45yBeI8C/view?usp=shari
 ### Requirements
 - MSP432 Microcontroller
 - Python (Pyserial and Keyboard Library)
-- IDE that supports the MSP432 Microcontroller (e.g., Keil uVision).
+- IDE that supports the MSP432 Microcontroller (e.g., Keil uVision)
 
 ### Steps
 1. Download Keil uVision from https://www.keil.com/demo/eval/arm.htm.
