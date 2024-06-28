@@ -38,9 +38,9 @@ git clone https://github.com/YashKapoor1102/EmbeddedStateMonitor.git
 ```
 cd EmbeddedStateMonitor
 ```
-**Step 3**: Open LED_state_handler.c in Keil uVision.
-**Step 4**: Click on Project > Build Target to compile the code.
-**Step 5**: Ensure the microcontroller is connected to your computer. Go to Flash > Download to upload the compiled code to your microcontroller.
+**Step 3**: Open LED_state_handler.c in Keil uVision.  
+**Step 4**: Click on Project > Build Target to compile the code.  
+**Step 5**: Ensure the microcontroller is connected to your computer. Go to Flash > Download to upload the compiled code to your microcontroller.  
 **Step 6**: Run the monitoring application by typing the following command in the terminal:
 ```
 python application_monitor.py
