@@ -11,7 +11,7 @@ The monitoring application is a Python script that communicates with the microco
 
 ## Demo Video
 Watch this demo recorded by Yash Kapoor for a detailed walkthrough of this project:
-https://drive.google.com/file/d/1LSEILRXVEywjj1cTgE-NbKXY45yBeI8C/view?usp=sharing
+https://drive.google.com/file/d/1ginOwsR-TnKTmDV1XY2qYnCfxszUkAoC/view?usp=sharing
 
 ## Installation
 ### Requirements
