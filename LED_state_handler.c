@@ -2,9 +2,7 @@
 
 Name: Yash Kapoor
 
-Student ID: 101163338
-
-SYSC3310A Lab 6: Simple PC Application
+Simple PC Application
 
 */
 
