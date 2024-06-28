@@ -1,9 +1,7 @@
 '''
 Name: Yash Kapoor
 
-Student ID: 101163338
-
-SYSC3310A Lab 6: Monitoring App using Pyserial
+Monitoring App using Pyserial
 
 '''
 
