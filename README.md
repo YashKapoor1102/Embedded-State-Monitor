@@ -19,6 +19,7 @@ The monitoring application is a Python script that communicates with the microco
 1. Download Keil uVision from https://www.keil.com/demo/eval/arm.htm.
 2. Download the latest version of Python from https://www.python.org/downloads/.
 3. Install the required Python libraries:
+
 Pyserial:
 ```
 pip install pyserial
