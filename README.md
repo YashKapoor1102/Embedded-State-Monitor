@@ -13,6 +13,13 @@ The monitoring application is a Python script that communicates with the microco
 Watch this demo recorded by Yash Kapoor for a detailed walkthrough of this project:  
 https://drive.google.com/file/d/1ginOwsR-TnKTmDV1XY2qYnCfxszUkAoC/view?usp=sharing
 
+## State Machines
+### Moore Simplified State Machine
+![image](https://github.com/YashKapoor1102/Embedded-State-Monitor/assets/78821595/d62ad06e-4a03-496f-ac60-22bcde4f081e)
+
+### Moore Refined State Machine
+![image](https://github.com/YashKapoor1102/Embedded-State-Monitor/assets/78821595/d783a8e0-bd38-4f6c-a26f-c9a01093150f)
+
 ## Installation
 ### Requirements
 - MSP432 Microcontroller
