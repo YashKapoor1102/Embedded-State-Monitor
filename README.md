@@ -1,7 +1,11 @@
-# EmbeddedStateMonitor
+# Embedded State Monitor
 
 ## Description
-This project consists of two parts: an embedded system program (LED_state_handler.c) and a monitoring application (application_monitor.py). The goal is to create a simple application on a personal computer that communicates with an MSP432 microcontroller via a serial port over a USB connection.
+This project consists of two parts: an embedded system program (LED_state_handler.c) and a monitoring application (application_monitor.py). The goal is to create an application on a personal computer that communicates with an MSP432 microcontroller via a serial port over a USB connection.
+
+## Demo Video
+Watch this demo recorded by Yash Kapoor for a detailed walkthrough of this project:
+https://drive.google.com/file/d/1LSEILRXVEywjj1cTgE-NbKXY45yBeI8C/view?usp=sharing
 
 ### Embedded System 
 The embedded system program (LED_state_handler.c) manages the state of two LEDs on the microcontroller (an RGB LED and a Red LED). There are four states (00, 01, 10, 11) that the LEDs can be in, where each state represents a different combination of LED ON/OFF statuses. Button 1 (P1.1) cycles forward through the states and Button 2 (P1.4) cycles backward.
@@ -39,8 +43,8 @@ git clone https://github.com/YashKapoor1102/EmbeddedStateMonitor.git
 cd EmbeddedStateMonitor
 ```
 **Step 3**: Open LED_state_handler.c in Keil uVision.  
-**Step 4**: Click on Project > Build Target to compile the code.  
-**Step 5**: Ensure the microcontroller is connected to your computer. Go to Flash > Download to upload the compiled code to your microcontroller.  
+**Step 4**: Click on **Project > Build Target** to compile the code.  
+**Step 5**: Ensure the microcontroller is connected to your computer. Go to **Flash > Download** to upload the compiled code to your microcontroller.  
 **Step 6**: Run the monitoring application by typing the following command in the terminal:
 ```
 python application_monitor.py
