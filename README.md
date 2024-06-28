@@ -10,7 +10,7 @@ The embedded system program (LED_state_handler.c) manages the state of two LEDs 
 The monitoring application is a Python script that communicates with the microcontroller to display and control the LED states. The user can input a state (0, 1, 2, or 3) to set the LEDs, and the application continuously displays the current state of the LEDs, updating whenever the state changes. 
 
 ## Demo Video
-Watch this demo recorded by Yash Kapoor for a detailed walkthrough of this project:
+Watch this demo recorded by Yash Kapoor for a detailed walkthrough of this project:  
 https://drive.google.com/file/d/1ginOwsR-TnKTmDV1XY2qYnCfxszUkAoC/view?usp=sharing
 
 ## Installation
