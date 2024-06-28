@@ -18,7 +18,7 @@ The monitoring application is a Python script that communicates with the microco
 ### Steps
 1. Download Keil uVision from https://www.keil.com/demo/eval/arm.htm.
 2. Download the latest version of Python from https://www.python.org/downloads/.
-3. Install the required Python libraries:
+3. Install the required Python libraries by typing the following commands in the command prompt:
 
 Pyserial:
 ```
@@ -28,3 +28,26 @@ Keyboard:
 ```
 pip install keyboard
 ```
+
+## Usage
+**Step 1**: Clone the repository by typing the following command in your terminal:
+```
+git clone https://github.com/YashKapoor1102/EmbeddedStateMonitor.git
+```
+**Step 2**: Navigate to the project directory where you cloned the repository:
+```
+cd EmbeddedStateMonitor
+```
+**Step 3**: Open LED_state_handler.c in Keil uVision.
+**Step 4**: Click on Project > Build Target to compile the code.
+**Step 5**: Ensure the microcontroller is connected to your computer. Go to Flash > Download to upload the compiled code to your microcontroller.
+**Step 6**: Run the monitoring application by typing the following command in the terminal:
+```
+python application_monitor.py
+```
+Then, you can interact with the application by entering a state (press "s" and type 0 (both LEDs OFF), 1 (RGB LED ON), 2 (RED LED ON), or 3 (both LEDs OFF)). To exit the application, press "q".
+
+The application will display the current state of the LEDs. It will update the displayed state whenever a button on the microcontroller is pressed or a state is entered through the application monitor. 
+
+## Credits
+- Yash Kapoor
